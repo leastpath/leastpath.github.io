@@ -8,3 +8,12 @@ $(document).ready(function() {
         return false;
     });
 });
+$(document).ready(function() {
+    $('a.contact').click(function() {
+        $('#contact').fadeTo(200, 0.1);
+        $('#contact').css('background-color', '#fafa33');
+        $('#contact').css('padding', '10px 20px 0 20px');
+        $('#contact').fadeTo(1000, 1.0);
+	return true;
+    });
+});
