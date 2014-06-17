@@ -8,8 +8,9 @@
    
 	}
 	/* Default link styling */
-	a:link { color:#0271fb; }
-	a:visited { color:#bd02fb; }
+	/*a:link { color:#0271fb; }*/
+	a:link { color:#4575d4; }
+	a:visited { color:#4575d4; }
 	a:hover, a:focus { color:#000; }
 	a:active { color:#fb0e02; }
 	
@@ -19,11 +20,42 @@
    Author's styles
    ---------------------------------------------------------*/
 	body {
-   
+	font-family:"Liberation Serif","Times New Roman",Times,serif;
+	color:#444;
+	background-color:#fafacc;
 	}
 
+	div#page-wrapper {
+	margin:auto;
+	max-width:740px;
+	padding:10px;
+	}
 
-	
+	h1, h2, h3, h4, h5, h6 {
+	font-style:italic;
+	}
+
+	header#banner nav li {
+	}
+
+	nav li {
+	display: inline;
+	list-style-type:none; 
+	padding-left:1em;
+	margin-left:1em;
+	border-left:1px solid #ccc;
+	}
+
+	nav li:first-child {
+	border-left:none;
+	padding-left:0;
+	margin-left:0;
+	}
+
+	#what, #where, #when, #how, #why {
+	display:none;
+	}
+
 /* ---------------------------------------------------------
    Print styles
    ---------------------------------------------------------*/
